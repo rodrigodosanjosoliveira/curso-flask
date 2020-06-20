@@ -10,4 +10,5 @@ def index():
 
 @app.route("/sobre")
 def sobre():
+    1 / 0
     return "<p>este é o melhor site de delivery</p>"
